@@ -12,5 +12,6 @@
       alert("Current value: " + currentValue);
 
       // Increment the counter
-      counterElement.innerText = currentValue + 1;
+      counterElement.innerText = (currentValue + 1).toString();
+
     });
